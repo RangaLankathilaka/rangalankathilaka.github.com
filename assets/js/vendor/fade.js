@@ -80,3 +80,10 @@ $("#logome").click(function () {
         scrollTop: $("#hello").offset().top
     }, 1500);
 });
+
+
+
+
+
+
+
