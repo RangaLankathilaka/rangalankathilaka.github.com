@@ -90,6 +90,17 @@
             }
 
 
+
+
+            @media only screen and (max-width: 600px) {
+                #me{
+                    height: 300px;
+
+                }
+
+            }
+
+
         </style>
 
     </head>
@@ -138,7 +149,7 @@
                         <a class="navbar-brand" href="#brand">
 
                             <img src="assets/images/logo.png" class="logo logo-display m-top-10" alt="">
-                            <img src="assets/images/logo.png" class="logo logo-scrolled" alt="">
+                            <img id="logome" src="assets/images/logo.png" class="logo logo-scrolled" alt="">
 
                         </a>
                     </div>
@@ -160,31 +171,6 @@
                 </div>  
 
 
-                <!-- Start Side Menu -->
-                <div class="side">
-                    <a href="#" class="close-side"><i class="fa fa-times"></i></a>
-                    <div class="widget">
-                        <h6 class="title">Custom Pages</h6>
-                        <ul class="link">
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="widget">
-                        <h6 class="title">Additional Links</h6>
-                        <ul class="link">
-                            <li><a href="#">Retina Homepage</a></li>
-                            <li><a href="#">New Page Examples</a></li>
-                            <li><a href="#">Parallax Sections</a></li>
-                            <li><a href="#">Shortcode Central</a></li>
-                            <li><a href="#">Ultimate Font Collection</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- End Side Menu -->
 
             </nav>
 
@@ -211,8 +197,8 @@
                             <div class="home_btns m-top-40">
 
 
-                                <a href="" class="btn btn-primary m-top-20">VIEW PROFILE</a>
-                                <a href="" class="btn btn-default m-top-20">DOWNLOAD CV</a>
+                                <a   id="viewbtn" class="btn btn-primary m-top-20">VIEW PROFILE</a>
+                                <a href="RangaLankathilaka.pdf" class="btn btn-default m-top-20">DOWNLOAD CV</a>
                             </div>
 
                         </div>
@@ -236,9 +222,10 @@
                                     <h5>Phone&nbsp&nbsp&nbsp:&nbsp&nbsp (+94)71&nbsp&nbsp146&nbsp&nbsp77&nbsp&nbsp41 </h5><br>
 
                                     <div class="about_btns m-top-40">
-                                        <a href="" class="btn btn-primary">DOWNLOAD CV</a>
+                                        <a href="RangaLankathilaka.pdf" class="btn btn-primary">DOWNLOAD CV</a>
                                     </div>
                                 </div>
+                                <br><br>
                             </div>
                             <div class="col-md-6">
                                 <div class="about_accordion wow fadeIn">
@@ -1367,8 +1354,8 @@
                                         <ul class="list-inline">
                                             <!--<li><a href=""><i class="fa fa-facebook"></i></a></li>-->
                                             <!--<li><a href=""><i class="fa fa-twitter"></i></a></li>-->
-                                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                                            <li><a href=""><i class="fa fa-github"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/in/ranga-lankathilaka-b75264ab/"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="https://github.com/RangaLankathilaka"><i class="fa fa-github"></i></a></li>
                                             <!--<li><a href=""><i class="fa fa-instagram"></i></a></li>-->
                                         </ul>
                                     </div>
@@ -1421,7 +1408,7 @@
                             <p class="wow fadeInRight" data-wow-duration="1s">
                                 Made by
 
-                                <a target="_blank" href="http://bootstrapthemes.co">Ranga Lankathilaka</a>
+                                <a target="_blank" href="https://www.linkedin.com/in/ranga-lankathilaka-b75264ab/">Ranga Lankathilaka</a>
                                 2018. All Rights Reserved
                             </p>
                         </div>
@@ -1438,6 +1425,7 @@
 
             <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
             <script src="assets/js/vendor/bootstrap.min.js"></script>
+        <script src="assets/js/vendor/fade.js"></script>
 
             <script src="assets/js/jquery.magnific-popup.js"></script>
             <script src="assets/js/jquery.easing.1.3.js"></script>
