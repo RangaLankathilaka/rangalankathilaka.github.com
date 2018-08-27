@@ -45,6 +45,43 @@
 
         <style>
 
+            /*@-webkit-keyframes typing { from { width: 0; } }*/
+            /*@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }*/
+
+            /*#full {*/
+                /*font: bold 300% Consolas, Monaco, monospace;*/
+                /*border-right: .1em solid black;*/
+                /*width: 16.5em;*/
+                /*width: 21ch;*/
+                /*margin: 2em 1em;*/
+                /*white-space: nowrap;*/
+                /*overflow: hidden;*/
+                /*-webkit-animation: typing 7s steps(21, end),*/
+                /*blink-caret .5s step-end infinite alternate;*/
+            /*}*/
+
+            /*html,body {*/
+                /*font-family: 'Raleway', sans-serif;*/
+                /*padding: 3em 2em;*/
+                /*font-size: 18px;*/
+                /*background: #222;*/
+                /*color: #aaa*/
+            /*}*/
+
+            /*#h1tag,#h1tag {*/
+                /*font-weight: 200;*/
+                /*margin: 0.4em 0;*/
+            /*}*/
+
+
+            #story{
+                color: white;
+            }
+            #h1tag { font-size: 0.4em; }
+            #h1tag {
+                color: white;
+                font-size: 1.2em;
+            }
 
 
             .home_text>div{
@@ -188,7 +225,7 @@
 
 
                                    <h1 class="text-white">Hello, I am <br />Ranga Lankathilaka</h1>
-                                   <h3>Full-Stack Software Engineer</h3>
+                                   <h3 id="full">Full-Stack Software Engineer</h3>
                                </div>
 
 
@@ -1369,32 +1406,26 @@
                                 </div>
                             </div>
                             <div class="col-md-8 sm-m-top-30">
-                                <form class="" action="subcribe.php">
+
                                     <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <input id="first_name" name="first_name" type="text" placeholder="Name" class="form-control" required="">
-                                            </div>
-                                        </div>
 
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
-                                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
-                                            </div>
-                                        </div>
 
-                                        <div class="col-sm-12">
-                                            <div class="form-group">
-                                                <textarea class="form-control" rows="6" placeholder="Message"></textarea>
-                                            </div>
-                                            <div class="form-group text-center">
-                                                <a href="" class="btn btn-primary">SEND MESSAGE</a>
-                                            </div>
-                                        </div>
+
+                                        <!--<link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />-->
+                                        <p id="h1tag">
+                                            <span id="story"
+                                                    class="txt-rotate"
+                                                    data-period="2000"
+                                                    data-rotate='[ "I am a self-motivated applicant with academic experience in Computing & Information Systems and Electronics. I have very good leadership skill and planning knowledge. I’d like to give my fullest contribution to your organization through my academic qualification and personal skills to achieve organization’s mission and objectives.", "Enthusiastic professional full-stack software engineer.", "More than 2 years of experience as a full-stack software engineer, including software implementation, web portal launches, and quality assurance. Analytical thinking, and creative problem-solving. Able to work under pressure, effective at multitasking, and able to accomplish overall organization objectives..","Facing challenges, achieving excellence through hard work and dedicating myself for Improvement of my knowledge. Working as a team player and achieving targets with innovative solutions is always my strength.."]'></span>
+                                        </p>
+
+
+
+
 
                                     </div>
 
-                                </form>
+
                             </div>
                         </div>
                     </div><!--End off row -->
